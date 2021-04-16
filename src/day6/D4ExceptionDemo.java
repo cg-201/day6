@@ -22,7 +22,7 @@ public class D4ExceptionDemo {
 			
 			// worrry point!!!
 			scanner.close();
-		} catch(Exception esoham) {
+		} catch(Throwable esoham) {
 			System.out.println("Invalid Index!!, Try Again!");
 			System.out.println(esoham.getMessage());
 			
