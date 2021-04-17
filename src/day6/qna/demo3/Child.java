@@ -15,9 +15,18 @@ public class Child extends Parent {
 		System.out.println("Iam child, with one param!!");
 	}
 	
+	@Override
+	public void demo1() {
+		// used super heree to call the parent version of demo1
+		super.demo1();
+		System.out.println("I am child version of demo1");
+	}
+	
 	
 	public static void main(String[] args) {
 		Child child = new Child("Hello");
 		System.out.println(child);
+		
+		child.demo1();
 	}
 }

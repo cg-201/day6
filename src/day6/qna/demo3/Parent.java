@@ -10,4 +10,8 @@ public class Parent {
 		System.out.println("I am parent with one INput Param");
 		
 	}
+	
+	public void demo1() {
+		System.out.println("I am parent demo1!!");
+	}
 }
